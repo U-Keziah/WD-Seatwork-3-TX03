@@ -4,28 +4,24 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/U-Keziah">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9XrqbVocBbrLpYpv7KNhaqfRMzJIpWjSzueEyjIF4IJ00usLS_F3OJxBNRg3shTRhpjQ1ViT4653isW57pJXUuwl4Pg-i1BFD5GpqLEZQiqVP3Oj-LBOOY-VuG8OvX5xbl7xB3nfIjqdByRQCRAdstoPCH7m6KNreigCvta6ehA9uXGxj0Qq5h3mH/s736/marin%201st.jpg" alt="Marin_Katigawa" width="200" height="200">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h1 align="center">Seatwork 3</h1>
+  <h3 align="center">Header and Footer </h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  A website that has multiple header and footer deisgns.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=U-Keziah/WD-Seatwork-3-TX03)
 
 ---
-
-<br />
-<br />
 
 <!-- TODO: If you want to add more layers for your readme -->
 <details>
@@ -43,10 +39,13 @@
       </ol>
     </li>
     <li>
-      <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
+      <a href="#rules-and-principles">Rules and Principles</a>
     </li>
     <li>
       <a href="#resources">Resources</a>
+    </li>
+    <li>
+      <a href="#documents">Documents</a>
     </li>
   </ol>
 </details>
@@ -59,35 +58,25 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- We are assigned to create a Header and Footer Display Website with distinct designs using pure HTML and CSS. Include both static and animated versions of the headers and footers.
+
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Multiple Page Website
+
+
+
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
-## Rules, Practices and Principles
-1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
-2. Do not rename any .html files; always use `index.html` as the filename.
-3. Place Files in their respective folders.
-4. All file naming are in camel case.
-   - Camel case is naming format where there is no white space in separation of each words, the first word is in all lower case while the succeding words first letter are in upper followed by lower cased letters.
-   - ex.: buttonAnimatedStyle.css
-5. Use only `External CSS`.
-6. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
-7. File Structure to follow below.
+## Rules and Principles
+1. Always use ***WD-*** in the front of the Title of the Project for the Subject followed by your custom naming.
+2. Do not rename any .html files; always use 'index.html' as the filename.
+3. File Structure to follow
 
 ```
 WD-ProjectName
@@ -117,4 +106,9 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| I Built a Website in 10 Minutes using HTML & CSS | I used this to understand how HTML and style css can combine | https://youtu.be/VegDvRLVlOI?si=i72nydLm9m0SF3Hm |
+| w3school How TO | A good website to learn what functions and elements does, I also use this website to copy the button and gallery |https://www.w3schools.com/howto/howto_css_icon_bar.asp |
+|  Responsive Portfolio Website From Scratch  | To get started in coding I use this format in the Homepage |https://www.youtube.com/watch?v=ldwlOzRvYOU |
+| HTML and CSS Project Tutorial: Pure CSS Image Slider | I use this for my gallery in ExtraA | https://www.youtube.com/watch?v=McPdzhLRzCg |
+
+
