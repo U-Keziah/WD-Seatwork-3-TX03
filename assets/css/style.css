@@ -22,20 +22,24 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
   height: 54vw;
+  justify-content: space-around;
 }
 
+
 .imageAnya {
+  display: flex;
   object-fit: cover;
-  height: 50vw; /* use relative unit */
-  width: 40vw; /* use relative unit */
+  height: 50vw; 
+  width: 40vw; 
 }
 
 .homeTextandButton {
   display: flex;
   flex-direction: column;
   padding-right: 10px;
+
+  
 }
 
 .homeButtons {
@@ -51,7 +55,7 @@
 
 .homeTextandButton h1 {
   padding-left: 30px;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -69,7 +73,7 @@
 }
 
 .homeText2 p {
-  padding-right: 80px;
+  padding-right: 30px;
   font-size: 15px;
   text-align: justify;
 }
