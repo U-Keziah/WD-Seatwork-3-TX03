@@ -99,6 +99,14 @@ nav input[type="text"] {
   border-width: 1px;
 }
 
+.context02 {
+  background-color: #9d2e1d;
+  width: auto;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
 .Nav_02 a {
   float: left;
   display: block;
@@ -108,6 +116,23 @@ nav input[type="text"] {
   text-decoration: none;
   font-size: 15px;
 }
+
+.fa-solid fa-bag-shopping {
+padding: 10px;
+}
+
+.icons02 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.searchbar02 {
+  align-content: center;
+  padding: 15px;
+}
+
 
 /*nav a:hover {
   background-color: #ddd;
