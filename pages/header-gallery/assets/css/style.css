@@ -31,6 +31,7 @@
 .Nav_01 a {
   float: left;
   display: block;
+  font-style: Tiny5;
   color: black;
   text-align: center;
   padding: 20px 16px;
@@ -120,30 +121,31 @@ nav input[type="text"] {
 /*Section 3*/
 
 .header03 {
-  overflow: hidden;
   background-color: #bbeeb5;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  width: 100%; 
+  
 }
 
 .Logo3 {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  padding-left: 16px;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .Logo3 h1{
   font-size: 2rem;
-
+  font-family: "Righteous", sans-serif;
 }
 
 .context03 {
   background-color: #bbeeb5;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
 }
 .block31 {
@@ -151,18 +153,40 @@ nav input[type="text"] {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding-left: 20px;
+}
+
+.searchbar03 {
+  align-content: center;
+  padding-left: 15px;
+}
+
+/* Style the search box inside the navigation bar */
+nav input[type="text"] {
+  
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
 }
 
 .block32{
   padding: 20px;
+ 
 }
 
+.Nav_03 {
+  display: flex;
+  justify-content: space-between;
+}
 .Nav_03 a {
   color: rgb(92, 22, 55);
-  float: left;
-  display: block;
+  display: flex;
   padding: 20px 32px;
+  justify-content: center;
+  align-items: center;
+
 }
 
 
@@ -177,7 +201,7 @@ nav input[type="text"] {
   color: rgb(92, 22, 55);
 }
 .image_boarder3{
-padding: 20px 16px;
+padding: 30px;
 }
 
 .block33 img {
@@ -190,7 +214,7 @@ border-radius: 50px;
 
 .header04{
   overflow: hidden;
-  background-color: #f9e9bf;
+  background-color: #dbede1;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -201,6 +225,7 @@ border-radius: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  font: Righteous;
 }
 
 .Logo4 a {
@@ -253,25 +278,44 @@ nav input[type="text"] {
 
 .header05{
   overflow: hidden;
-  background-color: #4d7f88;
+  background-color: #191919;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
+
 .Logo5{
-  padding: 20px;
+  padding: 16px 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
   align-content: center;
 }
 
-.block53 {
+.Logo5 img {
+border-radius: 50px;
+width: 100px;
+height: 100px;
+padding-right: 20px;
 }
+
+.Nav_05 a {
+  float: left;
+  display: block;
+  color: #c4b395;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.block53 {
+  padding-right: 50px;
+}
+
 .block53 a {
   padding: 20px 16px;
-  color: rgb(92, 22, 55);
+  color: #c4b395;
 }
 
 /*nav a:hover {
