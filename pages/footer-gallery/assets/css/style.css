@@ -1,0 +1,59 @@
+.footer1 {
+    padding-top: 25px;
+    display: flex;
+    background-color: wheat;
+    flex-direction: row;
+    gap: 50px;
+}
+
+
+.block1{
+    padding-left: 30px;
+}
+.block1_textandimage {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.block1 img {
+    width: 200px;
+    height: 200px;
+}
+
+.block1_promotionaltext p {
+    text-align: justify ;
+}
+    
+
+.block2_services{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.block2_inquiries_text2 h3{
+    margin-bottom: 5px;;
+}
+
+.block2_inquiries_text2 p{
+    margin-top:0px;
+    margin-bottom: 5px;;
+}
+
+/*Footer 2*/
+
+.footer2 {
+    padding-top: 25px;
+    display: flex;
+    background-color: wheat;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.f2_block1 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+}
