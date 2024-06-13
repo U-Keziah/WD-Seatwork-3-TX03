@@ -139,24 +139,97 @@
 
 /*footer 4*/
 .footer4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .f4_block1 {
-    padding: 20px;
+  display: flex;
+  width: 100rem;
+  padding-bottom: 30px;
+  background-color: #dbede1;
+  gap: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
-.f4_block1 img{
-    height: 130px;
-    width: 130px;
-    border-radius: 300px;
+.f4_block1 img {
+  height: 130px;
+  width: 130px;
+  border-radius: 300px;
 }
 
-.f4_block2_text1 {
+.f4_block2 {
+  display: flex;
+  width: 100rem;
+  background-color: #dbede1;
+  gap: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.f4_block2_tex1 a {
+  font-size: 20px;
+}
+
+.f4_block3 {
+  display: flex;
+  width: 100rem;
+  background-color: #dbede1;
+  gap: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.f4_block4 {
+  display: flex;
+  width: 100rem;
+  background-color: #dbede1;
+  gap: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Footer5*/
+
+.footer5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap:15px;
+  background-color: #191919;
+}
+
+.f5_block1_emailandsignup {
+  display: flex;
+  flex-direction: row;
+}
+
+.f5_block2 {
+  display: flex;
+  flex-direction: row;
+gap: 50px;
+
+}
+
+
+.f5_block2_navigation1 {
 display: flex;
-gap: 20px;
-align-content: space-around;
+flex-direction: column;
 }
 
+.f5_block2_navigation1 a{
+  display: flex;
+  flex-direction: column;
+  }
+
+.f5_block3 img {
+  height: 200px;
+  width: 200px;
+  border-radius: px;
+}

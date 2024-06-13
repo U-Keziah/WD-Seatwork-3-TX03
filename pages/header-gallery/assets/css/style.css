@@ -7,7 +7,7 @@
   padding: 10px;
 }
 
- .header01 {
+.header01 {
   overflow: hidden;
   background-color: #f9e9bf;
   display: flex;
@@ -16,30 +16,29 @@
   justify-content: space-between;
 }
 
-.Logo img {
+.h1_block1_logo img {
   object-fit: cover;
   height: 70px;
   width: 70px;
   padding: 10px;
 }
 
-.context {
+.h1_block2_navigationandsearch {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
-.Nav_01 a {
-  float: left;
-  display: block;
-  font-style: Tiny5;
+.h1_block2_navigation1 a {
   color: black;
   text-align: center;
   padding: 20px 16px;
   text-decoration: none;
   font-size: 15px;
+  font-family: "Montserrat", sans-serif;
 }
 
-.searchbar {
+.h1_block2_search {
   align-content: center;
   padding: 20px;
 }
@@ -57,25 +56,28 @@ nav input[type="text"] {
 /*Section 2*/
 
 .header02 {
-  overflow: hidden;
   background-color: #9d2e1d;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding: 20px;
 }
 
-.Logo2 {
+.h2_block1_imageandtext {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.Logo2 h1 {
+.h2_block1_imageandtext h1 {
   padding: 20px;
+  font-family: "Cinzel", serif;
+  color: wheat;
 }
 
-.Logo2 img {
+.h2_block1_imageandtext img {
   object-fit: cover;
   height: 70px;
   width: 70px;
@@ -83,39 +85,46 @@ nav input[type="text"] {
   border-radius: 50px;
 }
 
-.context02 {
-  background-color: #9d2e1d;
-  width: auto;
+.h2_block2_navigationandsearch {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.Nav_02 a {
-  float: left;
-  display: block;
+.h2_block2_navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.h2_block2_navigationandsearch a {
   color: wheat;
   text-align: center;
-  padding: 20px 16px;
+  font-family: "Economica", sans-serif;
+  padding: 20px 20px;
   text-decoration: none;
-  font-size: 15px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
-.fa-solid fa-bag-shopping {
-  padding: 10px;
-}
-
-.icons02 {
+.h2_block3_searchandicon {
   color: wheat;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 0.5rem;
+  gap: 20px;
 }
 
-.searchbar02 {
-  align-content: center;
-  padding: 15px;
+
+.h2_block4_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border: 2px solid wheat;
+  border-radius: 25px;
 }
 
 /*Section 3*/
@@ -123,46 +132,36 @@ nav input[type="text"] {
 .header03 {
   background-color: #bbeeb5;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 100%; 
-  
+  width: 100%}
+
+.h3_block2_icon1 {
+  padding-right: 20px;
 }
 
-.Logo3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.Logo3 h1{
+.h3_block1_logo h1 {
   font-size: 2rem;
   font-family: "Righteous", sans-serif;
 }
 
-.context03 {
-  background-color: #bbeeb5;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-}
-.block31 {
+.h3_block2_SIP {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  width: 100%;
 }
 
-.searchbar03 {
-  align-content: center;
-  padding-left: 15px;
+.h3_block2_search {
+  display: flex;
+  flex-direction: row;
+  width: 22%;
 }
 
 /* Style the search box inside the navigation bar */
 nav input[type="text"] {
-  
   float: right;
   padding: 6px;
   border: none;
@@ -171,48 +170,59 @@ nav input[type="text"] {
   font-size: 17px;
 }
 
-.block32{
-  padding: 20px;
- 
+.h3_block2_icons2 {
 }
 
-.Nav_03 {
+.h3_block2_navigation1 {
   display: flex;
-  justify-content: space-between;
+  gap: 50px;  
+
 }
-.Nav_03 a {
+
+.h3_block2_navigation1 a {
   color: rgb(92, 22, 55);
   display: flex;
-  padding: 20px 32px;
-  justify-content: center;
-  align-items: center;
-
+  text-decoration: none;
 }
 
-
-.block33 {
+.h3_block2_iconandimage {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: flex-end;
 }
 
-.block33 a {
-  padding: 20px 16px;
+
+.h3_block2_navigation2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 20px;
+  width: 85px;
+}
+
+.h3_block2_navigation2 a {
   color: rgb(92, 22, 55);
+  text-decoration: none;
 }
-.image_boarder3{
-padding: 30px;
+.h3_block2_iconandimage {
+  display: flex;
+  flex-direction: row;
+  width: 22%;
+
 }
 
-.block33 img {
-width: 50px;
-height: 50px;
-border-radius: 50px;
+.h3_block2_iconandimage img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
 }
+
 
 /*Section 4*/
 
-.header04{
+.header04 {
   overflow: hidden;
   background-color: #dbede1;
   display: flex;
@@ -248,7 +258,6 @@ border-radius: 50px;
 
 /* Style the search box inside the navigation bar */
 nav input[type="text"] {
-  
   float: right;
   padding: 6px;
   border: none;
@@ -276,7 +285,7 @@ nav input[type="text"] {
 
 /*Section 5*/
 
-.header05{
+.header05 {
   overflow: hidden;
   background-color: #191919;
   display: flex;
@@ -285,7 +294,7 @@ nav input[type="text"] {
   justify-content: space-between;
 }
 
-.Logo5{
+.Logo5 {
   padding: 16px 50px;
   display: flex;
   flex-direction: row;
@@ -294,10 +303,10 @@ nav input[type="text"] {
 }
 
 .Logo5 img {
-border-radius: 50px;
-width: 100px;
-height: 100px;
-padding-right: 20px;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  padding-right: 20px;
 }
 
 .Nav_05 a {
