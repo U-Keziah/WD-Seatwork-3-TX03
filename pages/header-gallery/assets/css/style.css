@@ -135,6 +135,8 @@ nav input[type="text"] {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  padding: 15px;
+
 }
 
 .h3_block2_icon1 {
@@ -330,15 +332,145 @@ nav input[type="text"] {
   color: #c4b395;
   text-decoration: none;
 }
+/* Animated Header1*/
 
-/*nav a:hover {
-  background-color: #ddd;
-  color: black;
+@keyframes fadein {
+  0%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-/* Style the "active" element to highlight the current page */
-/*nav a.active {
-  background-color: #2196f3;
-  color: white;
+.A-header04 {
+  overflow: hidden;
+  background-color: #dbede1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
-*/
+
+.A-h4_block1_logoandname {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.A-h4_block1_logoandname a {
+  padding-left: 26px;
+  color: rgb(92, 22, 55);
+  transition: transform 0.2 ease-in-out;
+}
+
+.A-h4_block1_logoandname i:hover {
+  transform: rotate(1.1);
+}
+
+.A-h4_block1_logoandname img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  padding: 20px;
+}
+
+
+
+.A-h4_block1_logoandname h1 {
+  font-family: "Yeseva One", serif;
+}
+
+
+
+.A-h4_block2_searchbar input[type="text"] {
+  align-content: center;
+  padding: 20px;
+  width: 700px;
+}
+
+.A-h4_block3_icons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-right: 20px;
+}
+
+
+
+
+.A-h4_block3_icons a {
+  padding: 20px 16px;
+  color: #5c1637;
+  border-left: 2px solid #5c1637;
+  transition: transform 0.2 ease-in-out;
+}
+
+.A-h4_block3_icons i:hover {
+  transform: scale(1.1);
+}
+
+.A-h4_block3_icons p {
+  font-family: "Source Sans 3", sans-serif;
+  color: rgb(92, 22, 55);
+}
+
+/*Animated HEader 2*/
+
+.A-header05 {
+  overflow: hidden;
+  background-color: #191919;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.A-h5_block1_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.A-h5_block1_logo img {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  padding-right: 30px;
+  padding-left: 50px;
+}
+
+.A-h5_block2_navigation1 a {
+  padding: 9px 31px;
+  color: #c4b395;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  border-left: 2px solid #c4b395;
+}
+
+.A-h5_block3_icons {
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.A-h5_block3_border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10px;
+  width: 15px;
+  border: 2px solid wheat;
+  border-radius: 50px;
+}
+
+.A-h5_block3_icons a {
+  padding: 20px 16px;
+  color: #c4b395;
+  text-decoration: none;
+}

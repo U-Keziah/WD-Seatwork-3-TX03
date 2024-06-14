@@ -1,14 +1,24 @@
-.footer1 {
-  padding-top: 25px;
+.title {
   display: flex;
-  background-color: wheat;
-  flex-direction: row;
-  gap: 50px;
+  align-items: center;
+}
+
+.title p {
+  padding: 10px;
+}
+
+
+.footer1 {
+  padding: 25px;
+  display: flex;
+  background-image: linear-gradient(90deg, wheat 73%, #8ec7c7 35%);
+   justify-content: space-around;
 }
 
 .block1 {
-  padding-left: 30px;
+  width: 22vw;
 }
+
 .block1_textandimage {
   display: flex;
   justify-content: center;
@@ -20,33 +30,100 @@
   height: 200px;
 }
 
+.block1_text h1{
+  font-family: "Chonburi", serif;
+}
+
+.block1_text p{
+  font-family: "Chonburi", serif;
+ font-size: 10px;
+}
+
 .block1_promotionaltext p {
+  font-family: "Montserrat", sans-serif;
   text-align: justify;
+  font-size: 15px;
+  width: 400;
+
+}
+
+.block2{
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .block2_services {
   display: flex;
   flex-direction: row;
-  gap: 35px;
+  justify-content: space-around;
+
+}
+
+.block2_services  h3{
+    font-family: "Chonburi", serif;
+}
+
+.block2_services  p{
+  font-family: "Montserrat", serif;
+  width: 400;
+}
+
+.block2_inquiries_text2 {
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.block2_inquiries_text1 p {
+  font-family: "Montserrat", sans-serif;
 }
 
 .block2_inquiries_text2 h3 {
+  font-family: "Chonburi", serif;
   margin-bottom: 5px;
 }
+
 
 .block2_inquiries_text2 p {
   margin-top: 0px;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 5px;
 }
 
+
+.block3_Location {
+  padding-top: 20px;
+  width:20vw;
+}
+.block3_Location h1 h3{
+  font-family: "Chonburi", serif;
+
+}
+
+.block3_Location p{
+  font-family: "Montserrat", serif;
+
+}
 /*Footer 2*/
 
 .footer2 {
   padding-top: 25px;
   display: flex;
-  background-color: wheat;
+  background-color: #9d2e1d;
   flex-direction: row;
   justify-content: space-around;
+  color:wheat
+}
+
+.footer2 h1 h3 {
+  font-family: "Cinzel", serif;
+
+}
+
+.footer2 p {
+  font-family: "Economica", sans-serif;
+  letter-spacing: 1px ;
 }
 
 .f2_block1 {
@@ -71,30 +148,36 @@
 }
 
 .f2_block2_email input[type="email"] {
-  align-content: center;
   padding: 20px;
   width: 400px;
   background-color: transparent;
+  border: 2px solid wheat;
+  color: wheat;
+  margin: 0 auto; /* Center the input field horizontally */
 }
+
+.f2_block2_email input[type="email"]:placeholder-shown {
+  color: #d3b369; /* Change the placeholder color for browsers that don't support placeholder-color */
+}
+
 
 .f2_block2_button1 {
   padding-top: 20px;
 }
 
 .btn {
-  border: 2px solid black;
+  border: 2px solid wheat;
   background-color: transparent;
-  color: black;
+  color: wheat;
+  font-family: "Economica", sans-serif;
+  letter-spacing: 2px;
   padding: 14px 28px;
   font-size: 15px;
   cursor: pointer;
   width: 200px;
 }
 
-.success:hover {
-  background-color: #04aa6d;
-  color: white;
-}
+
 
 .f2_block2_icons {
   display: flex;
@@ -142,14 +225,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #dbede1;
+  color: rgb(92, 22, 55);
+  padding: 10px
+}
+
+.footer4 h1 h3 {
+  font-family: "Yeseva One", serif;
+}
+
+.footer4 a{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+
 }
 
 .f4_block1 {
   display: flex;
-  width: 100rem;
+  width: 100vw;
   padding-bottom: 30px;
-  background-color: #dbede1;
-  gap: 50px;
   height: 50px;
   align-items: center;
   justify-content: center;
@@ -163,22 +258,22 @@
 
 .f4_block2 {
   display: flex;
-  width: 100rem;
-  background-color: #dbede1;
-  gap: 50px;
-  height: 50px;
+  width: 100vw;
+  height: 15vh;
   align-items: center;
   justify-content: center;
 }
 
-.f4_block2_tex1 a {
-  font-size: 20px;
+.f4_block2 a {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+padding: 0px 50px 0px 50px;
 }
+
 
 .f4_block3 {
   display: flex;
-  width: 100rem;
-  background-color: #dbede1;
+  width: 100vw;
   gap: 50px;
   height: 50px;
   align-items: center;
@@ -188,7 +283,6 @@
 .f4_block4 {
   display: flex;
   width: 100rem;
-  background-color: #dbede1;
   gap: 50px;
   height: 50px;
   align-items: center;
@@ -201,35 +295,81 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  gap:15px;
-  background-color: #191919;
+  gap: 56px;
+  padding: 25px;
+   background-color: #191919;
+  color: #c4b395;
 }
 
+.footer5 h1, .footer5 h3 {
+  font-family: "Abril Fatface", serif;
+  letter-spacing: 2px;
+}
+
+.footer5 p {
+  font-family: "Raleway", sans-serif;
+}
+
+.footer5 a {
+  text-decoration: none;
+}
+
+.f5_block1 {
+  width: 25vw;
+}
 .f5_block1_emailandsignup {
   display: flex;
   flex-direction: row;
+  gap: 25px
 }
+
+.f5_block1_email input[type="email"] {
+  padding: 20px;
+  margin: 0 auto; /* Center the input field horizontally */
+}
+
+.f5_block1_button1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 2px solid #c4b395;
+}
+
+.f5_btn i {
+color: #c4b395;
+;
+}
+
 
 .f5_block2 {
   display: flex;
-  flex-direction: row;
-gap: 50px;
-
+  justify-content: space-around;
+  width: 55vw;
 }
 
+.f5_block2_navigation {
+  text-decoration: none
+}
 
 .f5_block2_navigation1 {
-display: flex;
-flex-direction: column;
-}
-
-.f5_block2_navigation1 a{
   display: flex;
   flex-direction: column;
-  }
+  gap: 15px; 
+}
 
+.f5_block2_navigation1 a {
+  text-decoration: none;
+  color: #c4b395;
+}
+.f5_block3 {
+  display: flex;
+  align-items: center;
+}
 .f5_block3 img {
   height: 200px;
   width: 200px;
-  border-radius: px;
+  border-radius: 10px; /* Add a value for border-radius */
 }
