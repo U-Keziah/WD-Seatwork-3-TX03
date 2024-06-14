@@ -62,7 +62,7 @@ Description of the project in details.
 
 
 ### Key Components
-- Multiple Page Website
+- 3-Page Website
 
 
 
@@ -106,9 +106,14 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| I Built a Website in 10 Minutes using HTML & CSS | I used this to understand how HTML and style css can combine | https://youtu.be/VegDvRLVlOI?si=i72nydLm9m0SF3Hm |
-| w3school How TO | A good website to learn what functions and elements does, I also use this website to copy the button and gallery |https://www.w3schools.com/howto/howto_css_icon_bar.asp |
-|  Responsive Portfolio Website From Scratch  | To get started in coding I use this format in the Homepage |https://www.youtube.com/watch?v=ldwlOzRvYOU |
-| HTML and CSS Project Tutorial: Pure CSS Image Slider | I use this for my gallery in ExtraA | https://www.youtube.com/watch?v=McPdzhLRzCg |
+| w3school How TO | A good website to learn what functions and elements does, I also use this website to learn button, text input. |https://www.w3schools.com/howto/howto_css_icon_bar.asp |
+| St. Luke's Medical Center | Reference for the text of Header and Footer 1 |https://dovetailph.com/collections/jewelry|
+| Dovetail LAB DIAMOND JEWELRY| Reference for the text of  Header 2 |https://dovetailph.com/collections/jewelry|
+| JESSICA'S BEAUTY BLOG| Reference for text of Footer 2 |https://www.tiffany.com/|
+| Dovetail LAB DIAMOND JEWELRY| Reference for the text of Footer 3 |https://dovetailph.com/collections/jewelry|
+| Pet Express The Dog & Cat Store | Reference for the text of Header and Footer 4 | https://www.petexpress.com.ph/?gad_source=1&gclid=Cj0KCQjwsaqzBhDdARIsAK2gqndTh0zQaoh3NCxcrId5jQPbEYOl40z7QsST-ZtTPENCz3-ZOzUaXF0aAp_QEALw_wcB |
+| UniQlo| Reference for the text of Header 5 |https://www.uniqlo.com/ph/en/ |
+| Gap | Reference for the text of Footer 5 | https://gap.com.ph/ |
+
 
 
