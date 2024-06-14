@@ -14,6 +14,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding: 15px;
 }
 
 .h1_block1_logo img {
@@ -116,7 +117,6 @@ nav input[type="text"] {
   gap: 20px;
 }
 
-
 .h2_block4_icon {
   display: flex;
   align-items: center;
@@ -134,7 +134,8 @@ nav input[type="text"] {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%}
+  width: 100%;
+}
 
 .h3_block2_icon1 {
   padding-right: 20px;
@@ -170,13 +171,9 @@ nav input[type="text"] {
   font-size: 17px;
 }
 
-.h3_block2_icons2 {
-}
-
 .h3_block2_navigation1 {
   display: flex;
-  gap: 50px;  
-
+  gap: 50px;
 }
 
 .h3_block2_navigation1 a {
@@ -191,7 +188,6 @@ nav input[type="text"] {
   align-items: center;
   justify-content: flex-end;
 }
-
 
 .h3_block2_navigation2 {
   display: flex;
@@ -210,7 +206,6 @@ nav input[type="text"] {
   display: flex;
   flex-direction: row;
   width: 22%;
-
 }
 
 .h3_block2_iconandimage img {
@@ -218,7 +213,6 @@ nav input[type="text"] {
   height: 50px;
   border-radius: 50px;
 }
-
 
 /*Section 4*/
 
@@ -229,57 +223,52 @@ nav input[type="text"] {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding: 20px;
 }
 
-.Logo4 {
+.h4_block1_logoandname {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font: Righteous;
 }
 
-.Logo4 a {
-  padding: 20px 26px;
+.h4_block1_logoandname a {
+  padding-left: 26px;
   color: rgb(92, 22, 55);
 }
 
-.Logo4 img {
+.h4_block1_logoandname img {
   height: 100px;
   width: 100px;
   border-radius: 50px;
   padding: 20px;
 }
 
-.searchbar04 input[type="text"] {
+.h4_block1_logoandname h1 {
+  font-family: "Yeseva One", serif;
+}
+
+.h4_block2_searchbar input[type="text"] {
   align-content: center;
   padding: 20px;
   width: 700px;
 }
 
-/* Style the search box inside the navigation bar */
-nav input[type="text"] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-}
-
-.block43 {
-  align-items: center;
-  padding: 20px;
+.h4_block3_icons {
   display: flex;
+  align-items: center;
   flex-direction: row;
+  padding-right: 20px;
 }
 
-.block43 a {
+.h4_block3_icons a {
   padding: 20px 16px;
-  color: rgb(92, 22, 55);
+  color: #5c1637;
+  border-left: 2px solid #5c1637;
 }
 
-.block43 p {
-  padding: 20px 16px;
+.h4_block3_icons p {
+  font-family: "Source Sans 3", sans-serif;
   color: rgb(92, 22, 55);
 }
 
@@ -292,39 +281,55 @@ nav input[type="text"] {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding: 20px;
 }
 
-.Logo5 {
-  padding: 16px 50px;
+.h5_block1_logo {
   display: flex;
   flex-direction: row;
   align-items: center;
   align-content: center;
 }
 
-.Logo5 img {
+.h5_block1_logo img {
   border-radius: 50px;
   width: 100px;
   height: 100px;
-  padding-right: 20px;
+  padding-right: 30px;
+  padding-left: 50px;
 }
 
-.Nav_05 a {
-  float: left;
-  display: block;
+.h5_block2_navigation1 a {
+  padding: 9px 31px;
   color: #c4b395;
-  text-align: center;
-  padding: 20px 16px;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
-}
-.block53 {
-  padding-right: 50px;
+  border-left: 2px solid #c4b395;
+  flex-wrap: ;
 }
 
-.block53 a {
+.h5_block3_icons {
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.h5_block3_border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10px;
+  width: 15px;
+  border: 2px solid wheat;
+  border-radius: 50px;
+}
+
+.h5_block3_icons a {
   padding: 20px 16px;
   color: #c4b395;
+  text-decoration: none;
 }
 
 /*nav a:hover {
