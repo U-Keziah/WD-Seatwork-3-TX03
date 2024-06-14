@@ -4,73 +4,97 @@
   padding: 0;
 }
 
-#home::before {
+
+#home-page {
+  position: relative;
+  height: 100vh; /* add this to make the background cover the full height */
+  overflow: hidden; /* add this to prevent the blurry background from overflowing */
+}
+
+#home-page::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 54vw;
-  background-image: linear-gradient(120deg, rgba(255, 194, 204, 0.5) 50%, rgba(219, 73, 97, 0.5) 50%), url(../img/bgCover_01.jpg);  filter: blur(3px);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  z-index: -1; /* add this to send it behind the content */
+  height: 100%;
+  background-image: linear-gradient(120deg, rgba(255, 194, 204, 0.5) 20%, rgba(219, 73, 97, 0.5) 80%);
+  background-size: 100% 300px; /* adjust the background size to cover the full width and a fixed height */
+  background-position: center top;
+  z-index: -1;
 }
 
-#home {
+#home-page::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/bgCover_01.jpg);
+  background-size: cover;
+  background-position: center center;
+  filter: blur(3px);
+  z-index: -2;
+}
+
+.home{
   display: flex;
   flex-direction: row;
-  align-items: center;
-  height: 54vw;
-  justify-content: space-around;
+  gap: 20px;
+  height: 100%;
 }
 
-
-.imageAnya {
-  display: flex;
-  object-fit: cover;
-  height: 50vw; 
-  width: 40vw; 
-}
-
-.homeTextandButton {
+.home_block1_text-navigation {
   display: flex;
   flex-direction: column;
-  padding-right: 10px;
-
-  
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 55%;
 }
 
-.homeButtons {
-  padding-top: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-
-
-.homeTextandButton h1 {
+.home_block1_text h1 {
   padding-left: 30px;
   font-size: 50px;
   text-align: center;
 }
 
-.homeTextandButton h2 {
+.home_block1_text h2 {
   padding-left: 10px;
   font-size: 30px;
 }
-.homeText2 {
-  display: flex;
-  flex-direction: column;
+
+.home_block1_navigation {
+  padding-top: 20px;
+width: 55%;
 }
 
-.homeText2 h4 {
+.home_block1_navigation1{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+img {
+  object-fit: cover;
+  width: 55%; 
+}
+
+.home_block3_text2{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 20px;
+  width: 22%;
+}
+
+.home_block3_text2 h4 {
   padding-top: 20px;
 }
 
-.homeText2 p {
+.home_block3_text2 p {
   padding-right: 30px;
   font-size: 15px;
   text-align: justify;
