@@ -63,7 +63,9 @@ Description of the project in details.
 
 ### Key Components
 - 3-Page Website
-
+- Keyframes Animation
+- Multiple Header and Footer in One Page
+- Hover & Active Effect
 
 
 
