@@ -24,6 +24,7 @@
   z-index: -1;
 }
 
+
 #home-page::after {
   content: "";
   position: absolute;
@@ -44,6 +45,17 @@
   gap: 20px;
   height: 100%;
 }
+
+.home h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size:15px;
+}
+.home h1 {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
 
 .home_block1_text-navigation {
   display: flex;
