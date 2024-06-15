@@ -1,10 +1,23 @@
 .title {
   display: flex;
   align-items: center;
+ 
 }
 
 .title p {
   padding: 10px;
+}
+
+.title h3 {
+  padding: 10px;
+}
+
+
+#btn-up{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -230,7 +243,7 @@
   padding: 10px
 }
 
-.footer4 h1 h3 {
+.footer4 h1 .footer4 h3 {
   font-family: "Yeseva One", serif;
 }
 
@@ -267,7 +280,7 @@
 .f4_block2 a {
   border-left: 2px solid black;
   border-right: 2px solid black;
-padding: 0px 50px 0px 50px;
+  padding: 0px 50px 0px 50px;
 }
 
 

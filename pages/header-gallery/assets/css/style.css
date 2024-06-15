@@ -1,11 +1,25 @@
 .title {
   display: flex;
   align-items: center;
+ 
 }
 
 .title p {
   padding: 10px;
 }
+
+.title h3 {
+  padding: 10px;
+}
+
+#btn-up{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 .header01 {
   overflow: hidden;
@@ -334,14 +348,6 @@ nav input[type="text"] {
 }
 /* Animated Header1*/
 
-@keyframes fadein {
-  0%{
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 .A-header04 {
   overflow: hidden;
@@ -357,7 +363,12 @@ nav input[type="text"] {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
+  }
+
+  .A-h4_block1_logoandname h1 {
+    font-family: "Yeseva One", serif;
+  }
+    
 
 .A-h4_block1_logoandname a {
   padding-left: 26px;
@@ -366,23 +377,45 @@ nav input[type="text"] {
 }
 
 .A-h4_block1_logoandname i:hover {
-  transform: rotate(1.1);
+  color:gray;
+}
+
+.A-h4_block1_logoandname i {
+  padding: 15px;
+}
+
+.A-h4_block1_logoandname i:active {
+  border: 2px solid grey;
+
 }
 
 .A-h4_block1_logoandname img {
   height: 100px;
   width: 100px;
   border-radius: 50px;
-  padding: 20px;
+  margin: 15px;
+}
+
+.logoname h1 {
+  position: relative;
+  z-index: -1;
+  font-size: 25px;
+  width: 200px;
+}
+
+#logoname::before {
+  transform: translate(20px);
 }
 
 
-
-.A-h4_block1_logoandname h1 {
-  font-family: "Yeseva One", serif;
+#A-h4-picture:hover  ~ .logoname {
+  transform: translate(10px);
+  transition: all 0.5s ease;
 }
 
-
+.A-h4_block2_searchbar {
+  margin-left: 25px;
+}
 
 .A-h4_block2_searchbar input[type="text"] {
   align-content: center;
@@ -394,9 +427,26 @@ nav input[type="text"] {
   display: flex;
   align-items: center;
   flex-direction: row;
-  padding-right: 20px;
+  margin-left: 20px;
 }
 
+.A-h4-option p {
+  position: relative;
+  z-index: -1;
+  font-size: 22px;
+  width: 200px;
+  font-family: "Source Sans 3", sans-serif;
+
+}
+
+
+
+#A-h4-icon:hover ~ .A-h4-option p
+{
+  transform: translate(20px);
+  transition: all 0.5s ease;
+  z-index: 1;
+}
 
 
 
@@ -409,6 +459,7 @@ nav input[type="text"] {
 
 .A-h4_block3_icons i:hover {
   transform: scale(1.1);
+  color: white;
 }
 
 .A-h4_block3_icons p {
@@ -444,12 +495,20 @@ nav input[type="text"] {
 }
 
 .A-h5_block2_navigation1 a {
-  padding: 9px 31px;
+  padding: 12px 31px;
   color: #c4b395;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   border-left: 2px solid #c4b395;
+  transition: all 0.3s ease-in;
+}
+
+.A-h5_block2_navigation1 a:hover {
+  background-color: #c4b395;
+  color:#191919;
+  border-radius: 25px;
+  transform: scale(1.5);
 }
 
 .A-h5_block3_icons {
@@ -464,7 +523,6 @@ nav input[type="text"] {
   align-items: center;
   justify-content: center;
   height: 10px;
-  width: 15px;
   border: 2px solid wheat;
   border-radius: 50px;
 }
@@ -473,4 +531,306 @@ nav input[type="text"] {
   padding: 20px 16px;
   color: #c4b395;
   text-decoration: none;
+  transition: all 0.3s ease-in;
+}
+
+.A-h5_block3_icons a:hover {
+
+  background-color: #c4b395;
+  color:#191919;
+  border-radius: 25px;
+  transform: scale(1.5);
+}
+
+/*Animated Header 3*/
+
+.A-header03 {
+  background-color: #bbeeb5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+}
+
+.A-h3_block2_search {
+  display: flex;
+  flex-direction: row;
+  width: 22%;
+}
+
+.A-h3_block2_icon1 {
+  padding-right: 20px;
+  display: flex;
+}
+
+.A-h3_block2_icon1 i {
+  color: rgb(92, 22, 55);
+}
+
+.A-h3_block2_icon1 i:hover {
+  animation: notification 3s ease;
+}
+
+
+.A-h3_block1_logo h1 {
+  font-size: 2rem;
+  font-family: "Righteous", sans-serif;
+}
+
+.A-h3_block2_SIP {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  width: 100%;
+}
+
+.A-3_block2_search {
+  display: flex;
+  flex-direction: row;
+  width: 22%;
+}
+
+/* Style the search box inside the navigation bar */
+nav input[type="text"] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.A-h3_block2_navigation1 {
+  display: flex;
+  justify-content: space-between;
+  width: 10vw;
+}
+
+
+
+.A-h3_block2_navigation1 a:active{
+  border: 2px solid white;
+  padding: 15px;
+}
+
+
+.A-h3_block2_navigation1 a {
+  color: rgb(92, 22, 55);
+  display: flex;
+  text-decoration: none;
+}
+
+.A-h3_block2_iconandimage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.A-h3_block2_navigation2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 20px;
+  width: 85px;
+}
+
+.A-h3_block2_navigation2 a {
+  color: rgb(92, 22, 55);
+  text-decoration: none;
+}
+
+.A-h3_block2_navigation2 a:hover {
+  animation: notification 3s ease;
+  
+}
+
+@keyframes notification {
+  0% {
+    rotate:0deg;
+  }
+  50% {
+  rotate: 15deg;
+  }
+  100%{
+    rotate:-25deg;
+
+  }
+}
+
+
+.A-h3_block2_iconandimage {
+  display: flex;
+  flex-direction: row;
+  width: 22%;
+}
+
+
+
+.A-h3_block2_iconandimage img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  transition: all 0.5s ease;
+}
+
+.A-h3_block2_iconandimage img:hover {
+  transform: rotateY(360deg);
+}
+
+/*Animation Header 4*/
+
+.A-header02 {
+  background-color: #9d2e1d;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.A-h2_block1_imageandtext {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.A-h2_block1_imageandtext h1 {
+  padding: 20px;
+  font-family: "Cinzel", serif;
+  color: wheat;
+}
+
+.A-h2_block1_imageandtext img {
+  object-fit: cover;
+  height: 70px;
+  width: 70px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+
+
+.A-h2_block2_navigationandsearch {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.A-h2_block2_navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.A-h2_block2_navigationandsearch a {
+  color: wheat;
+  text-align: center;
+  font-family: "Economica", sans-serif;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  transition: all 0.3s ease-out;
+}
+
+.A-h2_block2_navigationandsearch a:hover{
+  transform: (45px,2px);
+  background-color: #5c1637;
+}
+
+
+
+.A-h2_block3_searchandicon {
+  color: wheat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.A-h2_block4_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border: 2px solid wheat;
+  border-radius: 25px;
+  transition: all 0.2s linear;
+}
+
+
+.A-h2_block4_icon:hover{
+  background-color: #5c1637;
+}
+
+/*Animation Header 5*/
+
+.A-header01 {
+  overflow: hidden;
+  background-color: #f9e9bf;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+@keyframes logoLoad {
+  0% {
+   transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  }
+
+
+
+.A-h1_block1_logo img {
+  object-fit: cover;
+  height: 70px;
+  width: 70px;
+  padding: 10px;
+  
+}
+
+.A-h1_block2_navigationandsearch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.A-h1_block2_navigation1 a {
+  color: black;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.A-h1_block2_search {
+  align-content: center;
+  padding: 20px;
+}
+
+/* Style the search box inside the navigation bar */
+nav input[type="text"] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
 }
